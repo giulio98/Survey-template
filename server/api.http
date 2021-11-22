@@ -1,0 +1,51 @@
+POST http://localhost:3001/api/sessions
+Content-Type: application/json
+
+{"username": "giovanni", "password": "password"}
+
+###
+GET http://localhost:3001/api/sessions/current
+
+###
+
+GET http://localhost:3001/api/surveys
+###
+GET http://localhost:3001/api/surveys/1
+Content-Type: application/json
+
+###
+
+POST http://localhost:3001/api/surveys/4
+Content-Type: application/json
+
+{"answerDescription": "provaAns", "questionDescription":"provaQuest","type":"closed","minimum":"0","maximum":"1"}
+
+###
+PUT http://localhost:3001/api/surveys/setsubmitted/6
+Content-Type: application/json
+
+###
+
+GET http://localhost:3001/api/surveys/submitted/user/4&1
+Content-Type: application/json
+
+###
+
+GET http://localhost:3001/api/surveys/submitted/user/answer/1
+Content-Type: application/json
+
+###
+
+POST http://localhost:3001/api/user/surveys/9
+Content-Type: application/json
+
+{"questionId":"15", "answerId":"0", "userId":"20", "text":"none"}
+
+###
+
+GET http://localhost:3001/api/surveys/submitted/listusers/1
+Content-Type: application/json
+
+###
+GET http://localhost:3001/api/surveys/submitted/1
+

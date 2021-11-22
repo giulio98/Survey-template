@@ -1,0 +1,121 @@
+.color-nav{
+  background-color:  #db4c3f;
+}
+.input-group-md>.form-control{
+  border-radius: 20px;
+}
+.input-group>.input-group-append>.btn{
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.vheight-100 {
+  min-height: 100vh;
+}
+.list-group-item.sidebar-left-elem-active{
+  color: black ;
+  background-color: #eeeeee!important;
+  border-color: #eeeeee!important;
+  padding: .75rem 1.25rem;
+  margin-left: 6px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border-radius: 20px  !important;
+}
+.list-group-item.sidebar-left-elem:hover {
+  background-color:#eeeeee!important;
+  
+}
+.list-group-item.sidebar-left-elem-active:hover{
+  background-color: #eeeeee!important;
+}
+.list-group-item.sidebar-left-elem{
+ 
+  padding: .75rem 1.25rem;
+  margin-left: 6px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  background-color: #fafafa;
+  border-radius: 20px  !important;
+  border-color:#fafafa;
+  
+}
+.add-button{
+  color:#db4c3f ;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  
+}
+.add-button:hover{
+  color: #db4c3f ;
+  cursor: pointer;
+
+}
+.error-border-login{
+  outline: none;
+  border-color: #e03131;
+  box-shadow: 0 0 5px #e03131;
+}
+
+.validity-error-login{
+  color: #e03131;
+
+}
+.form-control-md:focus{
+  box-shadow: none!important;
+  border-color: #ced4da!important;
+  border-left-color: white!important;
+}
+.form-control-md-password:focus{
+  box-shadow: none!important;
+  border-color: #ced4da!important;
+  border-left-color: white!important;
+  border-right-color: white!important;
+}
+.search-form:focus{
+  box-shadow: none!important;
+  border-color: #ced4da!important;
+  border-right-color: white!important;
+}
+.delete-button:hover{
+  cursor: pointer;
+  background-color: #e9ecef;
+  border-color: white;
+}
+.delete-button{
+  border-color: transparent;
+}
+.delete-button:focus{
+  border-color: none!important;
+  box-shadow: none!important;
+}
+.list-group-item.survey-main{
+ 
+  padding: 1.75rem 1.75rem;
+  margin-bottom: 12px;
+  margin-top: 4px;
+  background-color: #fff;
+  border-radius: 10px  !important;
+  border: 1px solid rgba(0,0,0,0)!important;
+
+}
+
+.list-group-item.survey-main:hover{
+ 
+  background-color: #fafafa;
+
+}
+.validity-error{
+  color: #e03131
+}
+
+.error-border{
+  outline: none;
+    border-color: #e03131;
+    box-shadow: 0 0 5px #e03131;
+}
+.delete-survey:hover{
+  color: red!important;
+}
+.user-icon:hover{
+  cursor: pointer;
+}
